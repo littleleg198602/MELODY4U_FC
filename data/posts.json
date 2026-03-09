@@ -1,0 +1,67 @@
+[
+  {
+    "id": "m4u-2026-03-01",
+    "title": "Spring Mood, One Tap",
+    "caption": "Spring starts with a feeling. Send a glowing voice message and let Melody4U turn it into music. ✨🎶 #Melody4U #YourMelodyYourWish",
+    "image_path": "spring-glow-01.jpg",
+    "scheduled_time": "2026-03-01T09:00:00",
+    "timezone": "UTC",
+    "language": "en",
+    "status": "scheduled",
+    "platforms": [
+      "facebook"
+    ]
+  },
+  {
+    "id": "m4u-2026-03-05",
+    "title": "Purple Night, Warm Heart",
+    "caption": "Your story. Your voice. Your melody. This March, make every memory sound premium. 💜",
+    "image_path": "spring-glow-02.jpg",
+    "scheduled_time": "2026-03-05T18:30:00",
+    "timezone": "UTC",
+    "language": "en",
+    "status": "scheduled",
+    "platforms": [
+      "facebook"
+    ]
+  },
+  {
+    "id": "m4u-2026-03-10",
+    "title": "Message to Music",
+    "caption": "A simple voice note can become the most unforgettable gift. Your melody, Your wish. 🌸",
+    "image_path": "spring-glow-03.jpg",
+    "scheduled_time": "2026-03-10T12:00:00",
+    "timezone": "UTC",
+    "language": "en",
+    "status": "scheduled",
+    "platforms": [
+      "facebook"
+    ]
+  },
+  {
+    "id": "m4u-2026-03-18",
+    "title": "Modern Love Soundtrack",
+    "caption": "Designed for modern moments: smartphone, voice, emotion, and a melody made just for you. 🎧",
+    "image_path": "spring-glow-04.jpg",
+    "scheduled_time": "2026-03-18T15:45:00",
+    "timezone": "UTC",
+    "language": "en",
+    "status": "scheduled",
+    "platforms": [
+      "facebook"
+    ]
+  },
+  {
+    "id": "m4u-2026-03-25",
+    "title": "March Finale",
+    "caption": "Before March ends, gift a melody that feels like light. Premium, personal, unforgettable. 🌷",
+    "image_path": "spring-glow-05.jpg",
+    "scheduled_time": "2026-03-25T20:00:00",
+    "timezone": "UTC",
+    "language": "en",
+    "status": "scheduled",
+    "platforms": [
+      "facebook"
+    ]
+  }
+]
