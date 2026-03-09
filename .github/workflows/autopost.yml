@@ -1,0 +1,31 @@
+name: Melody4U Facebook Autopost
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run autopost scheduler
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          DEFAULT_TIMEZONE: ${{ secrets.DEFAULT_TIMEZONE }}
+        run: python -m src.main
